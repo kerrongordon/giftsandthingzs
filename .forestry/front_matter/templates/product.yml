@@ -7,7 +7,7 @@ fields:
   label: title
   config:
     required: false
-    min: 3
+    min: 
 - type: datetime
   name: date
   label: date
