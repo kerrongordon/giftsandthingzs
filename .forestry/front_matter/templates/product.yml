@@ -6,7 +6,7 @@ fields:
   name: title
   label: title
   config:
-    required: true
+    required: false
     min: 3
 - type: datetime
   name: date
