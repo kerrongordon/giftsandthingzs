@@ -50,3 +50,5 @@ fields:
   - type: file
     name: image
     label: image
+pages:
+- content/products/louis-vuitton-purse.md
