@@ -5,15 +5,22 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
+    min: 3
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: text
   name: description
   label: description
 - type: text
   name: price
   label: price
+  config:
+    required: true
+    min: 1
 - type: text
   name: priceBefore
   label: priceBefore
@@ -23,9 +30,13 @@ fields:
 - type: text
   name: productID
   label: productID
+  config:
+    required: true
 - type: text
   name: type
   label: type
+  default: products
+  hidden: true
 - type: field_group_list
   name: images
   label: images
