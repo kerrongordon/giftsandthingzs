@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
 languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+title = "Gifts and Thingzs"
 theme = "hargo-hugo"
 summaryLength = "20"
 paginate = 10
@@ -37,10 +37,10 @@ disqusShortname = ""
   URL = "products"
   weight = 1
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
+  # [[menu.main]]
+  # name = "Blog"
+  # URL = "blog"
+  # weight = 2
 
   [[menu.main]]
   name = "FAQ"
@@ -58,10 +58,10 @@ disqusShortname = ""
   URL = "products"
   weight = 1
 
-  [[menu.footer]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
+  # [[menu.footer]]
+  # name = "Blog"
+  # URL = "blog"
+  # weight = 2
 
   [[menu.footer]]
   name = "FAQ"
@@ -98,14 +98,14 @@ mobile = "0124857985320"
 email = "demo@email.com"
 location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "Copyright &copy; 2022 [Gifts and Thingzs](https://google.com) All Rights Reserved"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 currencySymbol = "$"
 
   # Preloader
   [params.preloader]
-  enable = true
+  enable = false
   preloader = "" # use .png , .svg or .gif format
 
   # Product Rating

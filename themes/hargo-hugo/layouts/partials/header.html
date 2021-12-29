@@ -3,7 +3,7 @@
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="{{ site.BaseURL }}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+      <a class="navbar-brand d-lg-none d-xl-none" href="{{ site.BaseURL }}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -14,6 +14,7 @@
             <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
           </li>
           {{ range site.Menus.main }}
+              <a class="d-none menu-logo" href="{{ site.BaseURL }}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
