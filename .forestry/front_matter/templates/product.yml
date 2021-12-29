@@ -27,10 +27,16 @@ fields:
 - type: text
   name: shortDescription
   label: shortDescription
-- type: text
-  name: productID
+- name: productid
+  type: number
   label: productID
+  description: ''
+  default: 0
+  required: true
   config:
+    min: 
+    max: 
+    step: 
     required: true
 - type: text
   name: type
