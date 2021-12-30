@@ -100,7 +100,7 @@ location = "Grenada"
 # copyright
 copyright = "Copyright &copy; 2022 [Gifts and Thingzs](#) All Rights Reserved"
 # Snipcart Credentials
-snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
+snipcartApiKey = "MTZiOTU0MTQtYzI4My00MTNjLWE3MzEtMDc2ZWQyYzMyMTk2NjM3NzI4ODE4NjUyMDczNDE2"
 currencySymbol = "$"
 
   # Preloader
