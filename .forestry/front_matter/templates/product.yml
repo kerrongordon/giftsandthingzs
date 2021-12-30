@@ -62,3 +62,5 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+pages:
+- content/products/handbag-and-purse.md
