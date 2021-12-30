@@ -1,4 +1,64 @@
 ---
 label: Product
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: true
+- name: shortdescription
+  type: text
+  config:
+    required: false
+  label: ShortDescription
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: price
+  type: number
+  label: Price
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: pricebefore
+  type: number
+  label: PriceBefore
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: products
+  hidden: true
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
