@@ -45,4 +45,5 @@ fields:
       maxSize: 64
     label: Image
 pages:
+- content/products/christian-dior-bag.md
 - content/products/handbag-and-purse.md
