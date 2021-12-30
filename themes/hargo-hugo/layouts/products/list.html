@@ -5,9 +5,11 @@
 <section class="section pt-0">
   <div class="container">
     <div class="row">
-      {{ range .Data.Pages }}
+      {{/*  {{ range .Data.Pages }}  */}}
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
       <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card text-center card-product-grid">
+        <div class="card border-0 text-center card-product-grid">
           <a href="{{ .Permalink }}">
             {{ range first 1 .Params.Images }}
             <img src="{{ .image | absURL }}" alt="{{ .Title }}" class="card-img-top">
@@ -22,7 +24,7 @@
               {{ end }}
               <span class="lead text-primary">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
             </div>
-            <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Params.ProductID }}"
+            <button class="snipcart-add-item btn btn-sm btn-outline-primary" data-item-id="{{ .Permalink }}"
               data-item-name="{{ .Title }}" {{ range first 1 .Params.Images }} data-item-image="{{ .image | absURL }}"
               {{ end }} data-item-price="{{ .Params.Price }}" data-item-url="{{ .Permalink }}" data-item-description="{{ .Description }}">
               Add to cart
@@ -32,6 +34,7 @@
       </div>
       {{ end }}
     </div>
+    {{ template "_internal/pagination.html" . }}
   </div>
 </section>
 
