@@ -21,9 +21,6 @@ fields:
 - type: text
   name: shortDescription
   label: shortDescription
-- type: number
-  name: productID
-  label: productID
 - type: text
   name: type
   label: type
