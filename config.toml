@@ -84,8 +84,8 @@ paginate = 12
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Gifts and thingzs - enjoy the difference."
+author = "Gifts and Thingzs"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
@@ -95,8 +95,8 @@ mapMarker = "images/marker.png"
 googleAnalitycsID = "" # Your ID
 # Contact Information
 mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+email = "contact@giftsandthingzs.com"
+location = "Grenada"
 # copyright
 copyright = "Copyright &copy; 2022 [Gifts and Thingzs](#) All Rights Reserved"
 # Snipcart Credentials

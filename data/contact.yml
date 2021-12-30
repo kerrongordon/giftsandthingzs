@@ -11,13 +11,13 @@ contact:
   opennigHour:
     title : "Opening Hours"
     dayTimeList:
-      - dayTime : "Monday: 9:00 – 19:00"
-      - dayTime : "Tuesday: 9:00 – 19:00"
-      - dayTime : "Wednesday: 9:00 – 19:00"
-      - dayTime : "Thursday: 9:00 – 19:00"
-      - dayTime : "Friday: 9:00 – 19:00"
-      - dayTime : "Saturday: 9:00 – 19:00"
-      - dayTime : "sunday: 9:00 – 19:00"
+      - dayTime : "Monday: 9:00am – 4:00pm"
+      - dayTime : "Tuesday: 9:00am – 4:00pm"
+      - dayTime : "Wednesday: 9:00am – 4:00pm"
+      - dayTime : "Thursday: 9:00am – 4:00pm"
+      - dayTime : "Friday: 9:00am – 4:00pm"
+      - dayTime : "Saturday: 9:00am – 4:00pm"
+      - dayTime : "sunday: 9:00am – 4:00pm"
 
 ####################### google map ########################
 map:
