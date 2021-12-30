@@ -7,7 +7,7 @@ price = "270"
 priceBefore = ""
 productID = 1
 shortDescription = ""
-title = "handbag and purse"
+title = "Handbag and Purse"
 [[images]]
 image = "/uploads/whatsapp-image-2021-12-29-at-9-18-42-am.jpeg"
 
