@@ -5,7 +5,7 @@ title = "Gifts and Thingzs"
 theme = "hargo-hugo"
 summaryLength = "20"
 paginate = 12
-disqusShortname = ""
+disqusShortname = "gifts-and-thingzs"
 
 ############################# Plugins ##############################
 [params.plugins]
