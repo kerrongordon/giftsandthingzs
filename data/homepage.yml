@@ -92,7 +92,7 @@ video:
 ######################## Products #############################
 products:
   enable : true
-  title : "Products List"
+  title : ""
   # product item comes from "content/products"
 
 
