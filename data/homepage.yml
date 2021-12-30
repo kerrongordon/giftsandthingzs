@@ -38,7 +38,7 @@ cta:
 
 ######################## raw material #######################
 material:
-  enable : true
+  enable : false
   title : "Ingredients Of Our Products"
   subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dol."
