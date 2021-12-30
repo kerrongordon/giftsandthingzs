@@ -9,13 +9,15 @@
         <!-- product image slider -->
         {{ if eq (len .Params.Images) 1 }}
         {{ range .Params.Images }}
-        <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="product-img">
+        {{ $image := resources.Get .image }}
+        <img class="img-fluid w-100" src="{{ ($image.Fill "800x600" ).RelPermalink }}" alt="product-img">
         {{ end }}
         {{ else }}
         <div class="product-slider">
           {{ range .Params.Images }}
+          {{ $image := resources.Get .image }}
           <div data-image="{{ .image | absURL }}">
-            <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="product-img">
+            <img class="img-fluid w-100" src="{{ ($image.Fill "800x600" ).RelPermalink }}" alt="product-img">
           </div>
           {{ end }}
         </div>
