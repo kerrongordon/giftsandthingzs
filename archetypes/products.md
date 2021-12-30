@@ -19,6 +19,14 @@ productID: {{ mul 1000 (time .Date).Unix }}
 # type must be "products"
 type: "products"
 
+optionLable: ""
+
+options:
+  - ""
+  - ""
+  - ""
+  - ""
+
 # product Images
 # first image will be shown in the product page
 images:
