@@ -1,0 +1,41 @@
+---
+label: Product
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: price
+  label: price
+- type: text
+  name: priceBefore
+  label: priceBefore
+- type: text
+  name: shortDescription
+  label: shortDescription
+- type: number
+  name: productID
+  label: productID
+- type: text
+  name: type
+  label: type
+- type: text
+  name: optionLable
+  label: optionLable
+- type: list
+  name: options
+  label: options
+- type: field_group_list
+  name: images
+  label: images
+  fields:
+  - type: text
+    name: image
+    label: image
