@@ -27,6 +27,8 @@ fields:
 - type: text
   name: type
   label: type
+  hidden: true
+  default: products
 - type: text
   name: optionLable
   label: optionLable
@@ -37,8 +39,10 @@ fields:
   name: images
   label: images
   fields:
-  - type: text
-    name: image
-    label: image
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
 pages:
 - content/products/handbag-and-purse.md
